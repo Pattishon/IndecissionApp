@@ -1,0 +1,16 @@
+.header {
+  background: $dark-bg;
+  margin-bottom: 2.5rem;
+  padding: 1.6rem;
+}
+
+.header__title {
+  color: $light-txt;
+  font-size: 3.2rem;
+}
+
+.header__subtitle {
+  color: $light-txt;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
