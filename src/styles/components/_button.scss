@@ -4,7 +4,8 @@
   background: $accent;
   border: none;
   border-bottom: 0.6rem solid darken($accent, 10%);
-  color: white;
+  border-radius: 1rem;
+  color: $accent-txt;
   font-weight: bold;
   font-size: $m-size;
   width: 100%;
@@ -23,7 +24,8 @@
   background: $accent;
   border: none;
   border-bottom: 0.3rem solid darken($accent, 10%);
-  color: white;
+  border-radius: 1rem;
+  color: $accent-txt;
   font-weight: 300;
   padding: $s-size;
 }

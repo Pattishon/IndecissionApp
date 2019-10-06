@@ -1,10 +1,14 @@
 .widget {
   background: $light-bg;
+  border: none;
+  border-bottom: 0.3rem solid darken($light-bg, 10%);
+  border-radius: 1rem;
   margin-bottom: $xl-size;
 }
 //Widget header
 .widget-header {
   background: $dark-bg;
+  border-radius: 1rem 1rem 0 0;
   display: flex;
   justify-content: space-between;
   color: $light-txt;
@@ -16,7 +20,7 @@
 }
 
 .widget__message {
-  color: $light-txt;
+  color: $dark-txt;
   margin: 0;
   padding: $l-size;
   text-align: center;
