@@ -1,0 +1,44 @@
+//big action button
+
+.big-button {
+  background: $accent;
+  border: none;
+  border-bottom: 0.6rem solid darken($accent, 10%);
+  color: white;
+  font-weight: bold;
+  font-size: $m-size;
+  width: 100%;
+  margin-bottom: $m-size;
+  outline: none;
+  padding: 2.4rem;
+  transition: color 1s ease;
+}
+
+.big-button:disabled {
+  opacity: 0.5;
+}
+
+//other buttons
+.button {
+  background: $accent;
+  border: none;
+  border-bottom: 0.3rem solid darken($accent, 10%);
+  color: white;
+  font-weight: 300;
+  padding: $s-size;
+}
+
+//bem
+.button--link {
+  background: none;
+  border: none;
+  color: $light-txt;
+  padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .big-button {
+    font-size: $l-size;
+    margin-bottom: $xl-size;
+  }
+}
