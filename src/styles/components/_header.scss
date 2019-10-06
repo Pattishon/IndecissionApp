@@ -1,16 +1,26 @@
 .header {
-  background: $dark-bg;
-  margin-bottom: 2.5rem;
-  padding: 1.6rem;
+  background: $darkest-bg;
+  color: white;
+  margin-bottom: $m-size;
+  padding: $m-size 0;
 }
 
 .header__title {
   color: $light-txt;
-  font-size: 3.2rem;
+  font-size: $l-size;
+  margin: 0;
 }
 
 .header__subtitle {
-  color: $light-txt;
-  font-size: 1.5rem;
+  // color: $light-txt;
+  opacity: 0.7;
+  font-size: $m-size;
   font-weight: 500;
+  margin: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $xl-size;
+  }
 }
