@@ -15,7 +15,10 @@
 }
 
 .modal {
-  background: $light-bg;
+  background: $dark-bg;
+  border: none;
+  border-bottom: 0.3rem solid darken($dark-bg, 10%);
+  border-radius: 1rem;
   color: white;
   max-width: 30rem;
   outline: none;
