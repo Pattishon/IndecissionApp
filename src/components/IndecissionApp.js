@@ -57,7 +57,6 @@ class IndecissionApp extends React.Component {
     } else if (this.state.options.indexOf(newOpt) > -1) {
       return "This option is already added";
     }
-
     this.setState(prev => ({ options: [...prev.options, newOpt] }));
   };
 
