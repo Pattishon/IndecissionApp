@@ -27,7 +27,7 @@
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "4.12",
     "normalize.css": "7.0.0",
-    "react": "15.6.1",
+    "react": "15.7.0",
     "react-dom": "15.6.1",
     "react-modal": "2.2.2",
     "sass-loader": "6.0.6",
